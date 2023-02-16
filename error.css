@@ -64,7 +64,7 @@ h3 {
     font-weight: 700;
     font-size: 24px;
 }
-@media screen and (max-width:425px){
+@media screen and (min-width:425px){
 
     .wrap {
         display: flex;
@@ -124,7 +124,7 @@ h3 {
         font-size: 28px;
     }
 }
-@media screen and (min-width:426px) and (max-width:786px){
+@media screen and (min-width:426px) and (max-width:768px){
 
     .wrap {
         display: flex;
@@ -183,7 +183,7 @@ h3 {
         font-size: 28px;
     }
 }
-@media screen and (min-width:787px) and (min-width:1024px){
+@media screen and (min-width:769px) and (min-width:1024px){
 
     .wrap {
         display: flex;
