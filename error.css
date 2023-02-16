@@ -124,6 +124,66 @@ h3 {
         font-size: 28px;
     }
 }
+@media screen and (max-width:320px){
+
+    .wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 100vh;
+    
+    }
+    
+    .text {
+        margin: 12px;
+        margin-top: 25px;
+    }
+    
+    img {
+        width: 296px;
+    }
+    
+    .text>h1 {
+        font-family: 'Space Mono', monospace;
+        font-weight: 700;
+        color: #333333;
+        font-size: clamp(2.175rem, 1.4rem + 3.16vw, 3rem);
+        width: 25rem;
+        padding-top: 4rem;
+    }
+    
+    .text>p {
+        font-family: 'Space Mono', monospace;
+        color: #4F4F4F;
+        font-size: 24px;
+        width: 381px;
+    }
+    
+    button {
+        width: 216px;
+        height: 68px;
+        font-family: 'Space Mono', monospace;
+        color: #fff;
+        border: none;
+        background-color: #333333;
+        margin-top: 3rem;
+    }
+    
+    h3 {
+        position: absolute;
+        width: 250px;
+        left: 18px;
+        top: 10px;
+        font-family: 'Inconsolata', monospace;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+    }
+}
 @media screen and (min-width:426px) and (max-width:768px){
 
     .wrap {
